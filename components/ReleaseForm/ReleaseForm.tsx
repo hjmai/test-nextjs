@@ -18,7 +18,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const ReleaseForm = props => {
   const {
-    // classes,
+    classes,
     socialMediaPermission,
     contactPermission,
     handleSocialMedia,
@@ -41,7 +41,7 @@ const ReleaseForm = props => {
     }
   }));
 
-  const classes = useStyles({});
+  // const classes = useStyles({});
   return (
     <Card className={`${classes.card} release-form-container`}>
       <Grid container>

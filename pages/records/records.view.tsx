@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Button } from "@material-ui/core";
-import StudentTable from "./components/StudentTable";
-import FamilyTable from "./components/FamilyTable";
-import Table2019 from "./components/Table2019";
-import ModalView from "./components/Modal";
+import StudentTable from "../../components/StudentTable";
+import FamilyTable from "../../components/FamilyTable";
+import Table2019 from "../../components/Table2019";
+import ModalView from "../../components/Modal";
 import "./style.scss";
 
 const RecordsView = props => {

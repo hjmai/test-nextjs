@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import RecordsView from "./records.view";
-import Authorize from "./components/Authorize";
+import Authorize from "../../components/Authorize";
 import api from "../../src/utils/api";
 
 class RecordsContainer extends Component<any, any> {

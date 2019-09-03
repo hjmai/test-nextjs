@@ -1,10 +1,9 @@
 import { Modal, Grid, Typography, IconButton } from "@material-ui/core";
-import StudentCard from "../../register/components/StudentCard";
 import { makeStyles } from "@material-ui/core/styles";
 import { Edit } from "@material-ui/icons";
 import moment from "moment";
 import MaterialTable from "material-table";
-import api from "../../../src/utils/api";
+import api from "../../src/utils/api";
 
 const useStyles = makeStyles(theme => ({
   card: {

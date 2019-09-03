@@ -10,7 +10,7 @@ import {
   Input
 } from "@material-ui/core";
 import InputMask from "react-input-mask";
-import AutoComplete from "./AutoComplete";
+import AutoComplete from "../AutoComplete";
 
 const ParentCard = props => {
   const { classes, handleFamilies, families } = props;

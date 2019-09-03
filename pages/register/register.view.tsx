@@ -2,12 +2,11 @@ import React from "react";
 import { Grid, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import "./register.scss";
-import { fontWeight } from "@material-ui/system";
-import ParentCard from "./components/ParentCard";
-import AmountOfStudents from "./components/AmountOfStudentsCard";
-import StudentCard from "./components/StudentCard";
-import ReleaseForm from "./components/ReleaseForm";
-import AgreementCheckbox from "./components/AgreementCheckbox";
+import ParentCard from "../../components/ParentCard";
+import AmountOfStudents from "../../components/AmountOfStudentsCard";
+import StudentCard from "../../components/StudentCard";
+import ReleaseForm from "../../components/ReleaseForm";
+import AgreementCheckbox from "../../components/AgreementCheckbox";
 
 const useStyles = makeStyles(theme => ({
   card: {

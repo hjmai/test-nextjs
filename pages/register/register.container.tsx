@@ -2,7 +2,6 @@ import { Component } from "react";
 import RegisterView from "./register.view";
 import api from "../../src/utils/api";
 import moment from "moment";
-import fetch from "node-fetch";
 
 class RegisterContainer extends Component<any, any> {
   static getInitialProps = ({ query }) => {
