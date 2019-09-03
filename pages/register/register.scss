@@ -1,0 +1,40 @@
+.center-div {
+  margin: 0 auto;
+}
+.submit-button {
+  float: right;
+}
+.grade- {
+  color: white !important;
+  &2,
+  &3,
+  &4 {
+    background-color: #28a745 !important;
+  }
+  &5,
+  &6,
+  &7 {
+    background-color: #007bff !important;
+    color: white !important;
+  }
+  &8,
+  &9,
+  &10 {
+    background-color: #ffe607 !important;
+    color: white !important;
+  }
+  &11,
+  &12 {
+    background-color: #8b4513 !important;
+    color: white !important;
+  }
+}
+.release-form-container {
+  .divider {
+    margin: 15px 0;
+  }
+}
+.parent-card-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
